@@ -1,0 +1,19 @@
+<div class="container">
+  <div>REACTIVE FORM VALIDATOR</div>
+  <form #f="ngForm" [formGroup]="form">
+    <label>Phone:</label> <input type="text" formControlName="my-phone"><br>
+    <span [hidden]="!form.hasError('phone', 'my-phone')">
+             {{form.getError('phone', 'my-phone')?.description}}
+    </span>
+  </form>
+  <br>
+  <div>FORM VALUE</div>
+  <pre>{{f.value | json}}</pre>
+</div>
+
+
+
+
+
+
+

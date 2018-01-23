@@ -1,0 +1,67 @@
+
+div {
+  color: purple;
+  background: lightblue;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  background: lightblue;
+  height: 500px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: left;
+  font-family: Arial;
+  font-size: 18px;
+  top-padding: 20px;
+}
+
+.group {
+  background: lightblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial;
+  font-size: 18px;
+  height: 70px
+}
+
+br {
+  background: lightblue;
+  height: 40px;
+}
+
+button {
+  margin: 30px;
+}
+
+label, input {
+  margin: 5px;
+  color:darkgreen;
+}
+
+pre {
+  color: black;
+  font-size: large;
+  font-family: "Courier New";
+  margin:0px;
+}
+
+p {
+  height:30px;
+}
+
+span {
+  margin: 5px;
+  color:red;
+  font-size: medium;
+  font-family: Arial;
+  font-style: italic;
+
+}
